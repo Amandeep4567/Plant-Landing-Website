@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-color: #235242;
+  --grey-color: #555555;
+  --skygreen--color: #e1fff5;
+}
+h1 {
+  font-size: 4rem;
+  word-spacing: 2px;
+}
+
+h5 {
+  font-size: 13px;
+  word-spacing: 2px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #235242;
+  color: white;
+  padding: 18px;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--grey-color);
+}
+
+.black {
+  padding-top: 10px;
+  font-size: 1.1rem;
+  color: black;
+}
+
+/* Navigation Bar */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  font-size: 25px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 40px;
+}
+
+nav ul li a {
+  color: var(--grey-color);
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.btn {
+  text-decoration: none;
+  color: color;
+  font-weight: 400;
+  border: 2px solid transparent;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+
+.btn1 {
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+.btn2 {
+  margin-left: 20px;
+  background-color: var(--main-color);
+  color: white;
+}
+
+/* Introduction */
+
+.intro {
+  background: var(--skygreen--color);
+  margin-bottom: 0;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 32rem;
+  width: 40rem;
+}
+
+.cont {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 10rem;
+}
+
+.btn3 {
+  position: absolute;
+  margin-top: 20px;
+}
+
+/* About-Us */
+
+.photo {
+  height: 30rem;
+  width: 32rem;
+}
+
+.img {
+  margin-left: 3rem;
+}
+
+.sub {
+  color: var(--main-color);
+}
+
+.about {
+  margin-top: 5rem;
+}
+
+.about_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.cont2 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 10rem;
+}

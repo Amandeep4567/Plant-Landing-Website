@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --main-color: #235242;
   --grey-color: #555555;
@@ -24,10 +28,12 @@ h5 {
 }
 
 .button {
+  font-size: 1rem;
   text-decoration: none;
   background-color: #235242;
+  border-color: transparent;
   color: white;
-  padding: 15px;
+  padding: 14px;
   border-radius: 5px;
 }
 
@@ -74,6 +80,7 @@ nav ul li a {
   text-decoration: none;
   color: color;
   font-weight: 400;
+  font-size: 1rem;
   border: 2px solid transparent;
   padding: 10px 10px;
   border-radius: 4px;
@@ -116,18 +123,17 @@ nav ul li a {
 }
 
 .btn3 {
-  position: absolute;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 /* About-Us */
 
 .photo {
-  height: 28rem;
+  height: 30rem;
   width: 32rem;
 }
 
-.summary2 {
+.summary2 .s1 {
   font-size: 0.9rem;
 }
 
@@ -164,7 +170,7 @@ h2 {
   padding-left: 4rem;
   padding-right: 4rem;
   margin-bottom: 10rem;
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 .different_plant {
@@ -288,4 +294,82 @@ h2 {
 .block {
   padding-left: 1rem;
   padding-bottom: 1rem;
+}
+
+/* Colaboration with */
+
+.partners {
+  margin-top: 8rem;
+  background-color: var(--skygreen--color);
+  margin-bottom: 0;
+}
+
+.work_with {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.head4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo2 {
+  height: 12rem;
+  width: 12rem;
+  padding: 2rem;
+}
+
+.blog {
+  margin-top: 7rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.latest_blog {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn4 {
+  margin-top: 2rem;
+}
+
+.remidies {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.s {
+  font-size: 1.7rem;
+}
+
+.gap {
+  margin-top: 1rem;
+}
+
+.read {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.re {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+/* Client */
+
+.rating {
+  display: flex;
 }

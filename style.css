@@ -182,7 +182,6 @@ h2 {
 
 .diff_types {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-top: 5rem;
 }
@@ -201,25 +200,25 @@ h2 {
   color: white;
 }
 
+.padd {
+  margin: 2rem;
+}
+
 .plant_type {
-  height: 18rem;
-  width: 20rem;
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   border-radius: 5px;
   background-color: white;
   box-shadow: 5px 5px 30px #eae8e896, 12px 10px 30px #eae8e896;
 }
 
 .plant_type2 {
-  height: 18rem;
-  width: 20rem;
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   border-radius: 5px;
   background-color: var(--main-color);
 }
@@ -337,6 +336,8 @@ h2 {
 .latest_blog {
   display: flex;
   justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: rem;
 }
 
 .btn4 {
@@ -346,6 +347,7 @@ h2 {
 .remidies {
   display: flex;
   margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 .s {
@@ -370,6 +372,46 @@ h2 {
 
 /* Client */
 
+.client {
+  margin-top: 7rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 0;
+}
+
+.happy_clients {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .rating {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.rate {
+  padding: 15px;
+  margin: 20px 15px;
+  box-shadow: 5px 5px 30px #eae8e896, 12px 10px 30px #eae8e896;
+}
+
+.down {
+  padding-top: 0.5rem;
+}
+
+.si {
+  height: 1rem;
+  width: 5rem;
+}
+
+.small {
+  height: 6rem;
+  width: 6rem;
+}
+
+.person {
   display: flex;
 }

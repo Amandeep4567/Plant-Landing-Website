@@ -32,6 +32,7 @@ h5 {
   text-decoration: none;
   background-color: #235242;
   border-color: transparent;
+  cursor: pointer;
   color: white;
   padding: 14px;
   border-radius: 5px;
@@ -51,10 +52,15 @@ p {
 
 /* Navigation Bar */
 
+.navbar {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .logo {
@@ -66,7 +72,7 @@ nav {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 30px;
+  padding: 2rem;
 }
 
 nav ul li a {
@@ -84,16 +90,15 @@ nav ul li a {
   border: 2px solid transparent;
   padding: 10px 10px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn1 {
-  margin-left: 5rem;
   background-color: transparent;
   color: var(--grey-color);
 }
 
 .btn2 {
-  margin-right: 5rem;
   background-color: var(--main-color);
   color: white;
 }
@@ -147,8 +152,8 @@ nav ul li a {
 
 .about {
   margin-top: 5rem;
-  margin-left: 7rem;
-  margin-right: 5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
   margin-bottom: 0;
 }
 
@@ -169,8 +174,8 @@ h2 {
 .cont2 {
   padding-left: 4rem;
   padding-right: 4rem;
-  margin-bottom: 10rem;
-  margin-top: 8rem;
+  padding-bottom: 10rem;
+  padding-top: 8rem;
 }
 
 .different_plant {
@@ -356,6 +361,7 @@ h2 {
 
 .gap {
   margin-top: 1rem;
+  margin-right: 2.1rem;
 }
 
 .read {
@@ -366,6 +372,7 @@ h2 {
 }
 
 .re {
+  cursor: pointer;
   border-color: transparent;
   background-color: transparent;
 }
@@ -414,4 +421,52 @@ h2 {
 
 .person {
   display: flex;
+}
+
+.sm_pl {
+  height: 20rem;
+}
+
+.deserve {
+  margin-top: 8rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 0;
+  background-color: var(--skygreen--color);
+}
+
+.des {
+  display: flex;
+  justify-content: space-between;
+}
+
+.best {
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+
+footer {
+  margin-top: 7rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.foote {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li {
+  list-style: none;
+  padding-top: 0.6rem;
+}
+
+footer a i {
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  color: var(--main-color);
+}
+
+.list {
+  margin-top: 1rem;
 }

@@ -1,6 +1,9 @@
 # Plant-Landing-Website
 
+Direct Link: https://amandeep4567.github.io/Plant-Landing-Website/
+
 Have a Look 👨‍💻
+
 ![Screenshot (233)](https://user-images.githubusercontent.com/90441055/190692818-6ce46254-c98f-468d-b9ff-4becc9e5a28f.png)
 ![Screenshot (234)](https://user-images.githubusercontent.com/90441055/190692822-6ad2f668-6af4-40b1-8fe3-b918546c46c2.png)
 ![Screenshot (235)](https://user-images.githubusercontent.com/90441055/190692824-0f829de2-d606-4c41-9ecc-35c6e82b84c3.png)

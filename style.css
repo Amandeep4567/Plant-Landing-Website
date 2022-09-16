@@ -135,21 +135,10 @@ nav ul li a {
 /* About-Us */
 
 .about {
+  width: 100%;
   margin-top: 7rem;
-}
-
-.photo {
-  height: 30rem;
-  width: 32rem;
-}
-
-.cont2 {
-  width: 18cm;
-  padding-left: 5rem;
-}
-
-.sub {
-  color: var(--main-color);
+  margin-bottom: 0;
+  padding: 0 50px;
 }
 
 .about_us {
@@ -158,17 +147,23 @@ nav ul li a {
   align-items: center;
 }
 
-.summary2 .s1 {
-  font-size: 0.9rem;
+.cont2 {
+  margin-left: 5rem;
 }
 
-h2 {
-  font-size: 3rem;
+.sub {
+  color: var(--main-color);
+  font-size: 2rem;
 }
 
-/* .head2 {
+.photo {
+  height: 13cm;
+  width: 12cm;
+}
+
+.head2 {
   font-size: 3rem;
-} */
+}
 
 /* Different Plant */
 
@@ -265,7 +260,6 @@ h2 {
 
 .cont3 {
   display: flex;
-  justify-content: space-between;
   margin-top: 1.5rem;
 }
 
@@ -484,28 +478,27 @@ footer a i {
   }
 
   .head2 {
-    font-size: 3.8rem;
+    color: var(--main-color);
+    font-size: 4rem;
   }
 
-  p {
-    font-size: 1.5rem;
+  .different_plant {
+    margin-top: 8cm;
   }
 
   .head_para {
-    margin-left: 2.5cm;
-    width: 25cm;
+    width: 30cm;
+    text-align: center;
   }
 
   .diff_types {
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-left: 16cm;
+    margin-left: 2cm;
   }
 
   .plant_type,
   .plant_type2 {
-    width: 20cm;
+    width: 25cm;
   }
 
   .padd {
@@ -514,7 +507,7 @@ footer a i {
 
   .same_size,
   .same_size2 {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 
   .same_weight,
@@ -524,7 +517,7 @@ footer a i {
   }
 
   .y {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   .icon {
@@ -548,23 +541,21 @@ footer a i {
 
   .rating {
     flex-wrap: wrap;
-    margin-left: cm;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+    margin-left: 2.5cm;
     width: 25cm;
   }
 
   .small {
-    height: 4cm;
-    width: 4cm;
+    height: 5cm;
+    width: 5cm;
   }
 
   .down {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   h5 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .si {
@@ -576,6 +567,24 @@ footer a i {
 
   .deserve {
     width: 32cm;
+  }
+
+  .small_plant {
+    position: relative;
+    left: 13.5cm;
+  }
+
+  .sm_pl {
+    height: 10cm;
+    width: 8cm;
+  }
+
+  .des {
+    flex-direction: column-reverse;
+  }
+
+  .best {
+    text-align: center;
   }
 
   .w {
@@ -605,8 +614,8 @@ footer a i {
   }
 
   /* Partners */
+
   .partners {
-    /* margin-left: 3cm; */
     width: 40cm;
   }
 
@@ -620,6 +629,19 @@ footer a i {
   }
 
   /* Introduction */
+
+  .cont {
+    text-align: center;
+  }
+
+  .introduction {
+    flex-direction: column-reverse;
+  }
+
+  .image {
+    height: 10cm;
+    width: 8cm;
+  }
 
   .intro {
     width: 40cm;
@@ -635,13 +657,19 @@ footer a i {
 
   /* About Us */
 
-  .about {
-    width: 34cm;
+  .about_us {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 12cm;
+  }
+  .cont2 {
+    width: 32cm;
+    text-align: center;
   }
 
   .summary2 {
     font-size: 2rem;
-    width: 20cm;
+    text-align: center;
   }
 
   .sub {
@@ -650,12 +678,11 @@ footer a i {
 
   .black {
     font-size: 2rem;
-    width: 20cm;
   }
 
   .img .photo {
-    height: 20cm;
-    width: 15cm;
+    height: 24cm;
+    width: 24cm;
   }
 
   /* Work Process */
@@ -681,6 +708,14 @@ footer a i {
     width: 20cm;
   }
 
+  .condition {
+    margin-top: 2cm;
+  }
+
+  .l {
+    text-align: center;
+  }
+
   .summary3 {
     font-size: 2rem;
   }
@@ -694,9 +729,13 @@ footer a i {
     font-size: 2rem;
   }
 
+  .cont3 {
+    justify-content: center;
+    align-items: center;
+  }
+
   .block {
-    position: relative;
-    right: 5cm;
+    margin-left: 2cm;
   }
 
   .ico {
@@ -740,8 +779,14 @@ footer a i {
     font-size: 2rem;
   }
 
-  .take_care {
-    padding-top: 2rem;
+  .take_care,
+  .take_care2 {
+    padding: 2rem 2rem;
+    box-shadow: 5px 5px 30px #eae8e896, 12px 10px 30px #eae8e896;
+  }
+
+  .take_care2 {
+    margin-top: 4rem;
   }
 
   .s {

@@ -1,6 +1,6 @@
 # Plant-Landing-Website
 
-Direct Link: https://amandeep4567.github.io/Plant-Landing-Website/
+Direct Link: 
 
 Have a Look 👨‍💻
 

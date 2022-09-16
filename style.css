@@ -48,7 +48,6 @@ p {
   padding-top: 10px;
   font-size: 1rem;
   color: black;
-  width: 20cm;
 }
 
 /* Navigation Bar */
@@ -58,7 +57,7 @@ p {
   margin-right: 4rem;
 }
 
-nav {
+.nav_menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -118,7 +117,7 @@ nav ul li a {
 }
 
 .image {
-  height: 35rem;
+  height: 32rem;
   width: 40rem;
 }
 
@@ -134,37 +133,22 @@ nav ul li a {
 
 /* About-Us */
 
+.about {
+  margin-top: 7rem;
+}
+
 .photo {
   height: 30rem;
   width: 32rem;
 }
 
-.summary2 {
-  padding-right: 1rem;
-  width: 20cm;
-}
-
-.summary2 .s1 {
-  font-size: 0.9rem;
-}
-
-.img {
-  margin-left: 3rem;
+.cont2 {
+  width: 18cm;
+  padding-left: 5rem;
 }
 
 .sub {
   color: var(--main-color);
-}
-
-.about {
-  margin-top: 5rem;
-  margin-left: 6rem;
-  margin-right: 6rem;
-  margin-bottom: 0;
-}
-
-.head2 {
-  font-size: 3rem;
 }
 
 .about_us {
@@ -173,15 +157,19 @@ nav ul li a {
   align-items: center;
 }
 
+.summary2 .s1 {
+  font-size: 0.9rem;
+}
+
 h2 {
   font-size: 3rem;
 }
 
-.cont2 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-  margin-bottom: 0rem;
-}
+/* .head2 {
+  font-size: 3rem;
+} */
+
+/* Different Plant */
 
 .different_plant {
   margin-top: 5rem;
@@ -244,6 +232,8 @@ h2 {
   color: white;
 }
 
+/* Work Process */
+
 .box {
   position: absolute;
   left: 1rem;
@@ -256,8 +246,9 @@ h2 {
 
 .work_process {
   margin-top: 8rem;
-  margin-left: 7rem;
+  margin-left: 5rem;
   margin-right: 5rem;
+  height: auto;
   margin-bottom: 0rem;
 }
 
@@ -341,6 +332,10 @@ h2 {
   margin-top: 7rem;
   margin-left: 6rem;
   margin-right: 6rem;
+}
+
+.p {
+  width: 16cm;
 }
 
 .latest_blog {
@@ -463,6 +458,10 @@ footer {
   justify-content: space-between;
 }
 
+.linkss {
+  width: 15cm;
+}
+
 footer ul li {
   list-style: none;
   padding-top: 0.6rem;
@@ -479,8 +478,12 @@ footer a i {
 }
 
 @media screen and (max-width: 1345px) {
+  .logo {
+    color: var(--main-color);
+  }
+
   .head2 {
-    font-size: 5rem;
+    font-size: 3.8rem;
   }
 
   p {
@@ -488,23 +491,20 @@ footer a i {
   }
 
   .head_para {
-    margin-left: 1cm;
+    margin-left: 2.5cm;
     width: 25cm;
-  }
-
-  .img {
-    width: 100%;
-    height: auto;
   }
 
   .diff_types {
     flex-wrap: wrap;
-    margin-left: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16cm;
   }
 
   .plant_type,
   .plant_type2 {
-    width: 14cm;
+    width: 20cm;
   }
 
   .padd {
@@ -518,29 +518,30 @@ footer a i {
 
   .same_weight,
   .same_weight2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
 
+  .y {
+    font-size: 2rem;
+  }
+
   .icon {
-    width: 8rem;
-    margin-left: 4cm;
+    width: 10rem;
   }
 
-  .diff_types {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  /* Clients */
 
-  /* Partners */
+  .client {
+    margin-left: 5cm;
+  }
 
   .happy_clients {
     width: 24cm;
   }
 
   .button {
-    width: 4cm;
+    width: 4.6cm;
     font-size: 1.8rem;
   }
 
@@ -570,6 +571,16 @@ footer a i {
     width: 4cm;
   }
 
+  /* Deserve */
+
+  .deserve {
+    width: 32cm;
+  }
+
+  .w {
+    font-size: 2rem;
+  }
+
   /* footer */
 
   .list {
@@ -594,35 +605,52 @@ footer a i {
 
   /* Partners */
   .partners {
-    width: 32cm;
+    /* margin-left: 3cm; */
+    width: 40cm;
+  }
+
+  .head4 {
+    font-size: 4rem;
+  }
+
+  .logo2 {
+    height: 6cm;
+    width: 6cm;
   }
 
   /* Introduction */
 
   .intro {
-    width: 32cm;
+    width: 40cm;
   }
 
   .btn3 {
     width: 6cm;
   }
 
+  .summary {
+    font-size: 2rem;
+  }
+
   /* About Us */
 
   .about {
-    width: 31cm;
+    width: 35cm;
+    margin-left: 2cm;
+  }
+
+  .summary2 {
+    font-size: 2rem;
+    width: 20cm;
   }
 
   .sub {
-    font-size: 1.8rem;
-  }
-
-  .head2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .black {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    width: 20cm;
   }
 
   .photo {
@@ -631,58 +659,79 @@ footer a i {
 
   /* Work Process */
   .work_process {
-    width: 32cm;
+    width: 35cm;
+  }
+
+  .work {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .photo {
     height: 20cm;
+    width: 20cm;
   }
 
   .box {
+    position: absolute;
+    left: 6cm;
     height: 20cm;
+    width: 20cm;
   }
 
-  .te {
+  .summary3 {
     font-size: 2rem;
   }
 
+  .te {
+    font-size: 3rem;
+  }
+
   .detail {
-    width: 15cm;
-    font-size: 1.4rem;
+    width: 20cm;
+    font-size: 2rem;
+  }
+
+  .block {
+    position: relative;
+    right: 5cm;
   }
 
   .ico {
-    height: 7rem;
-    width: 7rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   .icon2 {
     padding-left: 1rem;
     padding-top: 1rem;
-    height: 6rem;
-    width: 6rem;
+    height: 8rem;
+    width: 8rem;
   }
 
   /* Blog */
 
   .blog {
+    margin-left: 7cm;
     width: 25cm;
   }
 
   .remidies {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .p {
-    width: 16cm;
+    font-size: 2rem;
+    width: 20cm;
   }
 
   .btn4 {
-    margin-right: 4rem;
+    margin-left: 4rem;
   }
 
   .k {
-    width: 20cm;
+    width: 25cm;
   }
 
   .re {
@@ -698,6 +747,10 @@ footer a i {
   }
 
   .g {
-    font-size: 1.6rem;
+    font-size: 2rem;
+  }
+
+  .s1 {
+    font-size: 2rem;
   }
 }

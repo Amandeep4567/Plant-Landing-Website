@@ -17,7 +17,7 @@ html {
   --skygreen--color: #e1fff5;
 }
 
-h1 {
+h2 {
   font-size: 4rem;
   word-spacing: 2px;
 }
@@ -331,14 +331,13 @@ nav ul li a {
 }
 
 .p {
-  width: 16cm;
+  width: 15cm;
 }
 
 .latest_blog {
   display: flex;
   justify-content: space-between;
   margin-left: 2rem;
-  margin-right: rem;
 }
 
 .btn4 {
@@ -447,6 +446,7 @@ footer {
   margin-top: 7rem;
   margin-left: 5rem;
   margin-right: 5rem;
+  margin-bottom: 2rem;
 }
 
 .foote {
@@ -474,6 +474,10 @@ footer a i {
 }
 
 @media screen and (max-width: 1345px) {
+  h2 {
+    font-size: 8rem;
+  }
+
   .main_logo {
     color: var(--main-color);
   }
@@ -508,17 +512,17 @@ footer a i {
 
   .same_size,
   .same_size2 {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
   }
 
   .same_weight,
   .same_weight2 {
-    font-size: 2rem;
+    font-size: 2.8rem;
     margin-bottom: 2rem;
   }
 
   .y {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 
   .icon {
@@ -568,6 +572,13 @@ footer a i {
 
   .deserve {
     width: 32cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+  }
+
+  .best .button {
+    position: relative;
+    right: 1cm;
   }
 
   .small_plant {
@@ -576,7 +587,7 @@ footer a i {
   }
 
   .sm_pl {
-    height: 10cm;
+    height: 14cm;
     width: 8cm;
   }
 
@@ -589,21 +600,22 @@ footer a i {
   }
 
   .w {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   /* footer */
 
   .list {
     width: 9cm;
+    font-size: 1.8rem;
   }
 
   .fo {
-    font-size: 2.5rem;
+    font-size: 3.8rem;
   }
 
   footer ul li {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .navi {
@@ -620,14 +632,19 @@ footer a i {
     width: 40cm;
   }
 
+  .work_with {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .head4 {
     color: var(--main-color);
     font-size: 4rem;
   }
 
   .logo2 {
-    height: 10cm;
-    width: 10cm;
+    height: 12cm;
+    width: 50%;
   }
 
   /* Introduction */
@@ -650,11 +667,12 @@ footer a i {
   }
 
   .btn3 {
-    width: 6cm;
+    font-size: 2.5rem;
+    width: 8cm;
   }
 
   .summary {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   /* About Us */
@@ -662,15 +680,15 @@ footer a i {
   .about_us {
     flex-direction: column;
     width: 100%;
-    margin-left: 13cm;
+    margin-left: 12cm;
   }
   .cont2 {
-    width: 32cm;
+    width: 34cm;
     text-align: center;
   }
 
   .summary2 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -679,12 +697,13 @@ footer a i {
   }
 
   .black {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .img .photo {
-    height: 24cm;
-    width: 24cm;
+    padding-left: 2cm;
+    height: 25cm;
+    width: 32cm;
   }
 
   /* Work Process */
@@ -719,16 +738,16 @@ footer a i {
   }
 
   .summary3 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .te {
-    font-size: 3rem;
+    font-size: 3.8rem;
   }
 
   .detail {
     width: 20cm;
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 
   .cont3 {
@@ -741,66 +760,70 @@ footer a i {
   }
 
   .ico {
-    height: 10rem;
-    width: 10rem;
+    height: 14rem;
+    width: 14rem;
   }
 
   .icon2 {
     padding-left: 1rem;
     padding-top: 1rem;
-    height: 8rem;
-    width: 8rem;
+    height: 12rem;
+    width: 12rem;
   }
 
   /* Blog */
 
   .blog {
-    margin-left: 7cm;
+    margin-left: 3.5cm;
     width: 25cm;
   }
 
   .remidies {
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
   }
 
   .p {
-    font-size: 2rem;
+    font-size: 2.6rem;
     width: 20cm;
   }
 
   .btn4 {
     margin-left: 4rem;
+    font-size: 2.5rem;
+    width: 8cm;
   }
 
   .k {
-    width: 25cm;
+    width: 30cm;
   }
 
   .re {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .take_care,
   .take_care2 {
     padding: 2rem 2rem;
+    width: 32cm;
     box-shadow: 5px 5px 30px #eae8e896, 12px 10px 30px #eae8e896;
   }
 
   .take_care2 {
     margin-top: 4rem;
+    width: 32cm;
   }
 
   .s {
-    font-size: 3rem;
+    font-size: 3.8rem;
   }
 
   .g {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 
   .s1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   /* Navigation */

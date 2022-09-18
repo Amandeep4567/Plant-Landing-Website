@@ -300,8 +300,8 @@ nav ul li a {
 }
 
 .work_with {
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .head4 {
@@ -484,7 +484,7 @@ footer a i {
 
   .head2 {
     color: var(--main-color);
-    font-size: 4rem;
+    font-size: 6rem;
   }
 
   .different_plant {
@@ -540,8 +540,9 @@ footer a i {
   }
 
   .button {
-    width: 4.6cm;
-    font-size: 1.8rem;
+    width: 6cm;
+    /* padding: 4rem 5rem; */
+    font-size: 4rem;
   }
 
   .rating {
@@ -639,7 +640,8 @@ footer a i {
 
   .head4 {
     color: var(--main-color);
-    font-size: 4rem;
+    font-size: 6rem;
+    text-align: center;
   }
 
   .logo2 {
@@ -659,7 +661,7 @@ footer a i {
 
   .image {
     height: 10cm;
-    width: 8cm;
+    width: 13cm;
   }
 
   .intro {
@@ -702,8 +704,12 @@ footer a i {
 
   .img .photo {
     padding-left: 2cm;
-    height: 25cm;
-    width: 32cm;
+    height: 28cm;
+    width: 40cm;
+  }
+
+  .he2 {
+    font-size: 6rem;
   }
 
   /* Work Process */
